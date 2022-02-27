@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vida Espiritual</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Google fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:500i&amp;display=swap"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper slider-->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css" />
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet" />
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png" />
+  </head>
+  <body
+    class="scrollspy-example"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar"
+    data-bs-offset="0"
+    tabindex="0"
+  >
+    <!-- navbar-->
+    <header class="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark position-absolute w-100"
+        id="navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand d-block d-lg-none" href="index.html#hero">
+            <img src="img/logo-alt.svg" alt="..." width="60" />
+          </a>
+          <button
+            class="navbar-toggler navbar-toggler-end"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eucaristia.html">Eucaristía</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rosario.html">Rosario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#trono">Trono</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav d-none d-lg-block px-4">
+              <li class="nav-item m-0">
+                <a class="navbar-brand m-0" href="index.html#hero">
+                  <img src="img/logo.svg" alt="..." width="80" />
+                </a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="viacrucis.html">Viacrucis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#mensajes">Mensajes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="oraciones.html">Oraciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Slider -->
+    <section class="text-center pt-lg-0 hero-home" id="hero">
+      <div class="swiper hero-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide hero-slide bg-cover py-5 with-border-image d-flex align-items-center"
+            style="background: url(img/misa_p.jpg);"
+          >
+            <div class="container text-white py-5 my-5 index-forward">
+              <h1 class="text-uppercase text-xl mt-5">
+                Sacramento de la Eucaristía
+              </h1>
+              <div class="row">
+                <div class="col-lg-7 mx-auto">
+                  <p class="lead">
+                    La eucaristía nos permite apreciar la presencia de Cristo en
+                    nosotros y recordarnos su sacrificio en la cruz para nuestra
+                    salvación.
+                  </p>
+                  <a class="btn btn-primary mt-3 px-4" href="eucaristia.html">
+                    Leer más
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide hero-slide bg-cover py-5 with-border-image d-flex align-items-center"
+            style="background: url(img/rosario.jpg);"
+          >
+            <div class="container text-white py-5 my-5 index-forward">
+              <h1 class="text-uppercase text-xl mt-5">Santo Rosario</h1>
+              <div class="row">
+                <div class="col-lg-7 mx-auto">
+                  <p class="lead">
+                    El Santo Rosario otorga un infinito poder que solamente se
+                    obtiene con la fe y devoción a nuestra Madre Santísima.
+                  </p>
+                  <a class="btn btn-primary mt-3 px-4" href="rosario.html">
+                    Leer más
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="swiper-slide hero-slide bg-cover py-5 with-border-image d-flex align-items-center"
+            style="background: url(img/cruz.jpg);"
+          >
+            <div class="container text-white py-5 my-5 index-forward">
+              <h1 class="text-uppercase text-xl mt-5">Santo Viacrucis</h1>
+              <div class="row">
+                <div class="col-lg-7 mx-auto">
+                  <p class="lead">
+                    En la Cruz de Cristo está todo el amor de Dios, está su
+                    inmensa misericordia.
+                  </p>
+                  <a class="btn btn-primary mt-3 px-4" href="viacrucis.html">
+                    Leer más
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-button-next swiper-nav-custom d-none d-lg-block"
+        ></div>
+        <div
+          class="swiper-button-prev swiper-nav-custom d-none d-lg-block"
+        ></div>
+        <div class="swiper-pagination py-3 d-block d-lg-none"></div>
+      </div>
+    </section>
+    <!-- Features Section-->
+    <section id="features">
+      <div class="container-fluid p-0">
+        <div class="row p-0 text-center align-items-stretch g-0">
+          <div class="col-lg-3 col-md-6">
+            <div class="p-5 text-white h-100 bg-primary">
+              <h3 class="h4">Invita a Jesús a tu vida</h3>
+              <p class="mb-0 text-small">
+                Ten una relación cercana con Dios y confiesa tus pecados
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="p-5 text-white h-100 bg-primary-shade">
+              <h3 class="h4">Los mandamientos</h3>
+              <p class="mb-0 text-small">
+                Nos abren las puertas para vivir eternamente con Dios.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 order-lg-3">
+            <div class="p-5 text-white h-100 bg-primary">
+              <h3 class="h4">Arrepentimiento</h3>
+              <p class="mb-0 text-small">
+                Si confesamos nuestros pecados, Dios nos perdonará y nos
+                limpiará del mal.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 order-lg-4">
+            <div class="p-5 text-white h-100 bg-primary-shade">
+              <h3 class="h4">Dios es Amor</h3>
+              <p class="mb-0 text-small">
+                El que no ama, no conoce a Dios; porque Dios es amor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section class="py-5" id="services">
+      <div class="container py-5">
+        <header class="mb-4 text-center mb-5">
+          <p class="text-serif mb-0 text-primary">La vida a través de Cristo</p>
+          <h2 class="text-uppercase">Nuestra fe</h2>
+        </header>
+        <div class="row text-center gy-4">
+          <div class="col-lg-4">
+            <i class="fas text-primary mb-4 fa-3x fa-church"></i>
+            <h3 class="h5">La Eucaristía</h3>
+            <p class="text-muted">
+              La Eucaristía es el compendio y la suma de nuestra fe... contiene
+              todo el bien espiritual de la Iglesia.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas text-primary mb-4 fa-3x fa-bible"></i>
+            <h3 class="h5">La Biblia</h3>
+            <p class="text-muted">
+              La Biblia representa la palabra de Dios por escrito y, por lo
+              tanto, es la base de la fe y nuestra religión.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas text-primary mb-4 fa-3x fa-praying-hands"></i>
+            <h3 class="h5">La Oración</h3>
+            <p class="text-muted">
+              Orar no es solo pedir cosas, la oración se trata de hablar con
+              Dios.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Works Section-->
+    <section id="mensajes">
+      <div class="container-fluid px-0">
+        <div class="row align-items-stretch">
+          <div
+            class="col-lg-6 half-page-banner bg-cover"
+            style="background: url(img/papa.jpg);"
+          ></div>
+          <div class="col-lg-6 bg-light py-lg-5">
+            <div class="h-100 d-flex flex-column p-5 justify-content-center">
+              <p class="text-serif text-primary text-lg mb-0">Mensajes</p>
+              <h2 class="mb-3">Papa Francisco</h2>
+              <p class="text-muted">
+                Tener fe no quiere decir que no tengamos dificultades en la
+                vida, sino que somos capaces de afrontarlas sabiendo que no
+                estamos solos.
+              </p>
+              <ul class="list-check ps-0">
+                <li>
+                  <p class="mb-0 text-muted mb-2">
+                    La oración es la puerta de la fe, la oración es la medicina
+                    del corazón.
+                  </p>
+                </li>
+                <li>
+                  <p class="mb-0 text-muted mb-2">
+                    No sirve de mucho la riqueza en los bolsillos, cuando hay
+                    pobreza en el corazón.
+                  </p>
+                </li>
+                <li>
+                  <p class="mb-0 text-muted mb-2">
+                    Quien quiera ser grande, que sirva a los demás, no que se
+                    sirva de los demás.
+                  </p>
+                </li>
+                <li>
+                  <p class="mb-0 text-muted mb-2">
+                    El suelo, el agua, las montañas, todo lo bello que nos
+                    rodea, es una caricia de Dios.
+                  </p>
+                </li>
+              </ul>
+              <img class="mb-3" src="img/signature.png" alt="..." width="90" />
+              <h6 class="text-uppercase mb-0">Papa Francisco</h6>
+              <p class="text-serif text-primary text-small mb-0">
+                Jorge Mario Bergoglio
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sermons Section -->
+    <section class="py-5" id="sermons">
+      <div class="container py-5">
+        <header class="mb-4 text-center mb-5">
+          <p class="text-serif mb-0 text-primary">Familia Espiritual</p>
+          <h2 class="text-uppercase">Recomendaciones</h2>
+        </header>
+        <div class="row gy-5">
+          <div class="col-lg-4">
+            <a
+              class="primary-overlay d-block mb-3"
+              href="https://books.google.com.co/books/about/Imitaci%C3%B3n_de_Cristo.html?id=NFWK1d-BZmMC&printsec=frontcover&source=kp_read_button&hl=es&redir_esc=y#v=onepage&q&f=false"
+            >
+              <div class="overlay-content">
+                <img
+                  class="img-fluid w-100"
+                  src="img/imitacion.jpg"
+                  alt="..."
+                />
+              </div>
+            </a>
+            <h4 class="mb-0">
+              <a
+                class="reset-anchor"
+                href="https://books.google.com.co/books/about/Imitaci%C3%B3n_de_Cristo.html?id=NFWK1d-BZmMC&printsec=frontcover&source=kp_read_button&hl=es&redir_esc=y#v=onepage&q&f=false"
+              >
+                Imitación de Cristo
+              </a>
+            </h4>
+            <p class="text-serif text-primary text-small">Libro</p>
+            <p class="text-muted">
+              El «Kempis», o La Imitación de Cristo, es un pequeño libro de
+              bolsillo, escrito hace muchos siglos, y es el libro más leído
+              después de la Biblia.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <a
+              class="primary-overlay d-block mb-3"
+              href="https://www.vatican.va/content/vatican/es.html"
+            >
+              <div class="overlay-content">
+                <img class="img-fluid w-100" src="img/sermon-2.jpg" alt="..." />
+              </div>
+            </a>
+            <h4 class="mb-0">
+              <a
+                class="reset-anchor"
+                href="https://www.vatican.va/content/vatican/es.html"
+              >
+                La Santa Sede
+              </a>
+            </h4>
+            <p class="text-serif text-primary text-small">
+              Página Web en Español
+            </p>
+            <p class="text-muted">
+              La alusión al papa y a su autoridad como Santa Sede o Sede
+              Apostólica tiene su origen en la consideración del obispo de Roma
+              como sucesor de san Pedro y cabeza suprema de la Iglesia.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <a
+              class="primary-overlay d-block mb-3"
+              href="http://nunciatura.org.co/iglesia-catolica-en-colombia/"
+            >
+              <div class="overlay-content">
+                <img class="img-fluid w-100" src="img/sermon-3.jpg" alt="..." />
+              </div>
+            </a>
+            <h4 class="mb-0">
+              <a
+                class="reset-anchor"
+                href="http://nunciatura.org.co/iglesia-catolica-en-colombia/"
+              >
+                Iglesia Católica en Colombia
+              </a>
+            </h4>
+            <p class="text-serif text-primary text-small">
+              Página Web
+            </p>
+            <p class="text-muted">
+              Se encuentra organizada en 14 Provincias Eclesiásticas. En su
+              conjunto, estas Provincias Eclesiásticas están conformadas por 14
+              Arquidiócesis, 52 Diócesis y 10 Vicariatos Apostólicos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Become a Volunteer Section -->
+    <section
+      class="bg-cover bg-fixed shadow-inner"
+      id="volunteer"
+      style="background: url(img/oraciones_div.jpg);"
+    >
+      <div class="primary-overlay py-5">
+        <div class="overlay-content z-index-20 position-relative py-5">
+          <div class="container py-5 text-white text-center">
+            <h2 class="text-xl text-serif mb-5">Tarde te amé</h2>
+            <h4 class="text-shadow mb-3">
+              ¡Tarde te amé, hermosura tan antigua y tan nueva, tarde te amé! y
+              tú estabas dentro de mí y yo afuera, y así por de fuera te
+              buscaba; y, deforme como era, me lanzaba sobre estas cosas que tú
+              creaste.
+            </h4>
+            <h4 class="text-shadow mb-3">
+              Tú estabas conmigo, pero yo no estaba contigo. Reteníanme lejos de
+              ti aquellas cosas que, si no estuviesen en ti, no existirían.
+            </h4>
+            <h4 class="text-shadow mb-5">
+              Me llamaste y clamaste, y quebraste mi sordera; brillaste y
+              resplandeciste, y curaste mi ceguera; exhalaste tu perfume, y lo
+              aspiré, y ahora te anhelo; gusté de ti, y ahora siento hambre y
+              sed de ti; me tocaste, y deseo con ansia la paz que procede de ti.
+            </h4>
+            <h2 class="text-serif mb-0">Oración de San Agustín</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Events Section-->
+    <section class="py-5">
+      <div class="container py-5">
+        <header class="mb-4 text-center mb-5">
+          <p class="text-serif mb-0 text-primary text-lg">
+            Dios está con nosotros
+          </p>
+          <h2 class="text-uppercase">Oremos Juntos</h2>
+        </header>
+        <div class="p-4 p-lg-5 bg-light text-center mb-4">
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-3">
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-lg-start"
+              >
+                <a class="reset-anchor" href="oraciones.html">
+                  <i class="fas text-primary fa-3x fa-bible"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <h4 class="text-primary mb-1">
+                <a class="reset-anchor" href="oraciones.html">
+                  Oraciones Iniciales
+                </a>
+              </h4>
+              <p class="text-serif mb-0 text-muted">
+                Oraciones que todos debemos conocer.
+              </p>
+              <p class="text-serif mb-0 text-muted">
+                Dedicadas a nuestro Señor y a la Virgen María.
+              </p>
+            </div>
+            <div class="col-lg-3 text-lg-end">
+              <a class="btn btn-outline-primary px-4" href="oraciones.html">
+                Leer más
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 p-lg-5 bg-light text-center mb-4">
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-3">
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-lg-start"
+              >
+                <a class="reset-anchor" href="rosario.html">
+                  <i class="fas text-primary fa-3x fa-praying-hands"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <h4 class="text-primary mb-1">
+                <a class="reset-anchor" href="rosario.html">
+                  Santo Rosario
+                </a>
+              </h4>
+              <p class="text-serif mb-0 text-muted">
+                En el rosario se recuerdan los misterios de la vida, muerte,
+                resurrección de Cristo, la Asunción y coronación de la Virgen
+                María.
+              </p>
+            </div>
+            <div class="col-lg-3 text-lg-end">
+              <a class="btn btn-outline-primary px-4" href="rosario.html">
+                Leer más
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 p-lg-5 bg-light text-center mb-4">
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-3">
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-lg-start"
+              >
+                <a class="reset-anchor" href="eucaristia.html">
+                  <i class="fas text-primary fa-3x fa-church"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <h4 class="text-primary mb-1">
+                <a class="reset-anchor" href="eucaristia.html">
+                  Sacramento de la Eucaristía
+                </a>
+              </h4>
+              <p class="text-serif mb-0 text-muted">
+                La Santa Misa está en el centro de nuestra vida Católica.
+              </p>
+              <p class="text-serif mb-0 text-muted">
+                La Sagrada Eucaristía es "la fuente y la cumbre" de nuestra Fe.
+              </p>
+            </div>
+            <div class="col-lg-3 text-lg-end">
+              <a class="btn btn-outline-primary px-4" href="eucaristia.html">
+                Leer más
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 p-lg-5 bg-light text-center mb-4">
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-3">
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-lg-start"
+              >
+                <a class="reset-anchor" href="persignarse.html">
+                  <i class="fas text-primary fa-3x fa-cross"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center">
+              <h4 class="text-primary mb-1">
+                <a class="reset-anchor" href="persignarse.html">
+                  Persignarse Correctamente
+                </a>
+              </h4>
+              <p class="text-serif mb-0 text-muted">
+                ¿Sabes qué es Santiguarse, signarse y persignarse?
+              </p>
+              <p class="text-serif mb-0 text-muted">
+                ¿Sabes hacerlo correctamente?
+              </p>
+            </div>
+            <div class="col-lg-3 text-lg-end">
+              <a class="btn btn-outline-primary px-4" href="persignarse.html">
+                Leer más
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Donation trono-->
+    <section id="trono">
+      <div class="container-fluid px-0">
+        <div class="row align-items-stretch">
+          <div class="col-lg-6 bg-light py-lg-5 order-2 order-lg-1">
+            <div
+              class="h-100 d-flex flex-column px-5 py-2 justify-content-center"
+            >
+              <div class="w-100">
+                <p class="text-serif text-primary mb-0 text-lg-end text-lg">
+                  La Corte Celestial
+                </p>
+                <h2 class="text-uppercase mb-0 text-lg-end">
+                  El Trono de Dios
+                </h2>
+                <div class="row">
+                  <div class="col-lg-10 ms-auto">
+                    <p class="text-primary mt-3 mb-2 text-lg text-dark">
+                      Jerarquía Suprema:
+                    </p>
+                    <ul class="list-check ps-0">
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Serafines:
+                          </span>
+                          alabadores de Dios, Serafín significa amor ardiente.
+                        </p>
+                      </li>
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Querubines:
+                          </span>
+                          Guardianes de las cosas de Dios.
+                        </p>
+                      </li>
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Tronos:
+                          </span>
+                          están atentos a las razones del Obrar Divino.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-10 ms-auto">
+                    <p class="text-primary my-2 text-lg text-dark">
+                      Jerarquía Media:
+                    </p>
+                    <ul class="list-check ps-0">
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Dominaciones:
+                          </span>
+                          Participan en los gobiernos de las naciones.
+                        </p>
+                      </li>
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Virtudes:
+                          </span>
+                          encargados de hacer milagros.
+                        </p>
+                      </li>
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Potestades:
+                          </span>
+                          luchan contra las fuerzas adversas.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-10 ms-auto">
+                    <p class="text-primary my-2 text-lg text-dark">
+                      Jerarquía Inferior:
+                    </p>
+                    <ul class="list-check ps-0">
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Principados:
+                          </span>
+                          revestidos de una autoridad especial.
+                        </p>
+                      </li>
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Arcángeles:
+                          </span>
+                          son enviados por Dios para misiones de mayor
+                          importancia.
+                        </p>
+                      </li>
+                      <li>
+                        <p class="mb-0 text-muted mb-1">
+                          <span class="text-serif text-primary text-lg">
+                            Ángeles:
+                          </span>
+                          su significado es obediencia, misiones de menor
+                          importancia.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 half-page-banner bg-cover bg-center order-1 order-lg-2"
+            style="background: url(img/angel.jpg);"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section-->
+    <section class="py-3" id="contact">
+      <div class="container py-5">
+        <header class="mb-4 mb-5 text-center">
+          <p class="text-serif mb-0 text-primary text-lg">Salmo 91</p>
+          <h3 class="text-uppercase">Protección</h3>
+          <div class="row">
+            <div class="col-lg-7 mx-auto">
+              <p class="text-muted">
+                "El que mora en el lugar secreto del Altísimo, permanecerá bajo
+                la sombra del Todopoderoso".
+              </p>
+            </div>
+          </div>
+          <div class="container">
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              Leer Salmo 91
+            </button>
+          
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h1 class="modal-title text-primary">Salmo 91</h1>
+                    <button type="button" class="close" data-dismiss="modal">x</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body text-left">
+                    <p><span class="text-primary fw-bold">1</span> El que habita al abrigo del Altísimo se acoge a la sombra del Todopoderoso.</p>
+                    <p><span class="text-primary fw-bold">2</span> Yo le digo al Señor: «Tú eres mi refugio, mi fortaleza, el Dios en quien confío.»</p>
+                    <p><span class="text-primary fw-bold">3</span> Él te librará del lazo del cazador, de la peste destructora.</p>
+                    <p><span class="text-primary fw-bold">4</span> Con sus plumas te cubrirá, y debajo de sus alas estarás seguro; su verdad nunca deja de cuidarnos</p>
+                    <p><span class="text-primary fw-bold">5</span> No temerás el terror nocturno, ni saeta que vuele de día,</p>
+                    <p><span class="text-primary fw-bold">6</span> Ni pestilencia que ande en oscuridad, ni mortandad que en medio del día destruya.</p>
+                    <p><span class="text-primary fw-bold">7</span> Caerán a tu lado mil, y diez mil a tu diestra; mas a ti no llegará.</p>
+                    <p><span class="text-primary fw-bold">8</span> Ciertamente con tus ojos mirarás y verás la recompensa de los impíos.</p>
+                    <p><span class="text-primary fw-bold">9</span> Porque has puesto al Señor, que es mi esperanza, al Altísimo por tu habitación,</p>
+                    <p><span class="text-primary fw-bold">10</span> No te sobrevendrá mal, ni plaga tocará tu morada.</p>
+                    <p><span class="text-primary fw-bold">11</span> Pues a sus ángeles mandará acerca de ti, que te guarden en todos tus caminos.</p>
+                    <p><span class="text-primary fw-bold">12</span> En las manos te llevarán, para que tu pie no tropiece en piedra.</p>
+                    <p><span class="text-primary fw-bold">13</span> Sobre el león y el áspid pisarás; hollarás al cachorro del león y al dragón.</p>
+                    <p><span class="text-primary fw-bold">14</span> Por cuanto en mí ha puesto su amor, yo también lo libraré; le pondré en alto, por cuanto ha conocido mi nombre.</p>
+                    <p><span class="text-primary fw-bold">15</span> Me invocará, y yo le responderé; con él estaré yo en la angustia; lo libraré y le glorificaré.</p>
+                    <p><span class="text-primary fw-bold">16</span> Lo saciaré de larga vida, y le mostraré mi salvación.</p>
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="row align-items-stretch gx-0">
+          <div class="col-lg-6">
+            <div
+              class="contact-img bg-center bg-cover"
+              style="background: url(img/contact-bg.jpg);"
+            ></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-light p-5 h-100">
+              <h4>Familia Espiritual</h4>
+              <p class="text-muted">
+                Porque donde están dos o tres congregados en mi nombre, allí
+                estoy yo en medio de ellos. (S. Mateo 18:20).
+              </p>
+              <ul class="list-unstyled mb-0 text-muted">
+                <li class="mb-2">
+                  <a class="reset-anchor" href="">
+                    <i class="text-primary me-3 fas fa-map-marker-alt"></i>
+                    <span>Cali, Valle del Cauca</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a class="reset-anchor" href="">
+                    <i class="text-primary me-3 fas fa-globe-americas"></i>
+                    <span>Colombia</span>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a class="reset-anchor" href="mailto:jhguzmanj@gmail.com">
+                    <i class="text-primary me-3 far fa-envelope"></i>
+                    <span>jhguzmanj@gmail.com</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Scroll Top Button-->
+    <a class="scroll-top" href="#"><i class="fas fa-long-arrow-alt-up"></i></a>
+    <footer class="pt-5 text-white" style="background: #111;">
+      <div class="container pt-5">
+        <div class="row mb-5 pb-5">
+          <div class="col-md-4 col-sm-12">
+            <img class="mb-3" src="img/logo-footer.svg" alt="..." width="140" />
+            <p class="text-small text-muted">
+              Señor, tú eres mi Dios; te exaltaré y alabaré tu nombre porque has
+              hecho maravillas desde tiempos antiguos tus planes son fieles y
+              seguros. (Isaías 25:1)
+              <br />
+            </p>
+            <p class="text-small text-muted"></p>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h5 class="mb-4 mt-3">Lo que debemos conocer</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <h6 class="mb-1">
+                  <a class="reset-anchor text-primary" href="oraciones.html">
+                    Oraciones Iniciales
+                  </a>
+                </h6>
+                <p class="text-muted text-small mb-0">
+                  Oraciones al Señor y la Santísima Virgen María.
+                </p>
+              </li>
+              <li class="mb-3">
+                <h6 class="mb-1">
+                  <a class="reset-anchor text-primary" href="persignarse.html">
+                    Persignarse Correctamente
+                  </a>
+                </h6>
+                <p class="text-muted text-small mb-0">
+                  ¿Sabes qué es Santiguarse, signarse y persignarse?
+                  <br />
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h5 class="mb-4 mt-3">Contáctanos</h5>
+            <form class="" action="mailto:jhguzmanj@gmail.com" method="post" enctype="text/plain">
+                <fieldset class="form-group mb-0">
+                  <input type="email" class="form-control border-dark text-white rounded-0 bg-none" name="Tu correo " placeholder="Ingresa tu correo"><br>
+                  <textarea class="form-control border-dark text-white rounded-0 bg-none" name="Mensaje " placeholder="Mensaje"></textarea><br>
+              </fieldset>
+                <fieldset class="form-group text-xs-right mb-0">
+                    <button type="submit" class="btn btn-primary btn-sm"><i class="fas fa-paper-plane"></i> Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+          </div>
+        </div>
+        <div class="py-4 border-top border-dark text-center">
+          <p class="mb-0 text-muted">
+            Template designed by
+            <a
+              class="reset-anchor text-primary"
+              href="https://bootstrapious.com/p/cathedral-bootstrap-church-charity-template"
+            >
+              Bootstrap Temple
+            </a>
+            .
+          </p>
+          <!-- If you want to remove the backlink, please purchase the Attribution-Free License. See details in readme.txt or license.txt. Thanks!-->
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="vendor/progressbar.js/progressbar.js"></script>
+    <script src="js/front.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite -
+      //   see more here
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+        var ajax = new XMLHttpRequest()
+        ajax.open('GET', path, true)
+        ajax.send()
+        ajax.onload = function (e) {
+          var div = document.createElement('div')
+          div.className = 'd-none'
+          div.innerHTML = ajax.responseText
+          document.body.insertBefore(div, document.body.childNodes[0])
+        }
+      }
+      // this is set to BootstrapTemple website as you cannot
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite(
+        'https://bootstraptemple.com/files/icons/orion-svg-sprite.svg',
+      )
+    </script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>
